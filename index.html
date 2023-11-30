@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>HD현대중공업</title>
+
+  <!--css-->
+  <link rel="stylesheet" href="./css/main.css">
+
+  <!--js-->
+  <script src="./js/jquery-3.7.1.min.js"></script>
+  <script src="./js/main.js"></script>
+
+   <!--swiper-->
+  <link rel="stylesheet" href="./css/swiper.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!--slick-->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.js"></script>
+  
+  <!--fullpage-->
+  <link rel="stylesheet" href="./css/fullpage.css">
+  <script src="./js/fullpage.js"></script>
+
+  <!--font-->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+  <div class="top_btn">
+    <div class="top_btn_white_img top_btn_img">
+      <img src="./image/icon/top_button.png" alt="top_button_img">
+    </div>
+    <div class="top_btn_black_img top_btn_img">
+      <img src="./image/icon/top_button_black.png" alt="top_button_img">
+    </div>
+  </div>
+
+  <header>
+    <div class="hamburder_box_outer"></div>
+    <div class="header_inner">
+      <div class="logo logo_white">
+        <a href="./index.html">
+          <img src="./image/logo/logo_white.png" alt="logo_white_img">
+        </a>
+      </div>
+      <div class="logo logo_black">
+        <a href="./index.html">
+          <img src="./image/logo/logo.png" alt="logo_img">
+        </a>
+      </div>
+      <div class="hamburder_btn hamburder_open hamburder_white">
+        <img src="./image/icon/hamburger.png" alt="hamburder_btn_img">
+      </div>
+      <div class="hamburder_btn hamburder_open hamburder_black">
+        <img src="./image/icon/hamburger_black.png" alt="hamburder_btn_black_img">
+      </div>
+      <ul class="language_pc">
+        <li class="on">KR</li>
+        <li>ENG</li>
+      </ul>
+      <div class="hamburder_box">
+        <select class="language">
+          <option>KR</option>
+          <option>ENG</option>
+        </select>
+        <div class="hamburder_btn hamburder_close">
+          <img src="./image/icon/close-button.png" alt="hamburder_close_img">
+        </div>
+        <ul class="lnb">
+          <li class="information main_menu">
+            <div class="main_menu_tab">
+              <p>기업소개</p>
+              <i class="fa-solid fa-caret-down down"></i>
+              <i class="fa-solid fa-caret-up up"></i>
+            </div>
+            <ul class="seb_menu_box">
+              <li><a href="#!">인사말</a></li>
+              <li><a href="#!">기업현황</a></li>
+              <li><a href="#!">역사</a></li>
+              <li><a href="#!">가치체계</a></li>
+              <li><a href="#!">사훈 · 사가</a></li>
+              <li><a href="#!">창업자 어록</a></li>
+            </ul>
+          </li><!--information-->
+          <li class="business main_menu">
+            <div class="main_menu_tab">
+              <p>사업분야</p>
+              <i class="fa-solid fa-caret-down down"></i>
+              <i class="fa-solid fa-caret-up up"></i>
+            </div>
+            <ul class="seb_menu_box">
+              <li><a href="#!">조선해양</a></li>
+              <li><a href="#!">특수선</a></li>
+              <li><a href="#!">엔진기계</a></li>
+              <li><a href="#!">연구개발</a></li>
+            </ul>
+          </li><!--business-->
+          <li class="promote main_menu">
+            <div class="main_menu_tab">
+              <p>홍보</p>
+              <i class="fa-solid fa-caret-down down"></i>
+              <i class="fa-solid fa-caret-up up"></i>
+            </div>
+            <ul class="seb_menu_box">
+              <li><a href="#!">보도자료</a></li>
+              <li><a href="#!">사보</a></li>
+              <li><a href="#!">브로슈어</a></li>
+              <li><a href="#!">홍보영화</a></li>
+              <li><a href="#!">그룹50년사</a></li>
+            </ul>
+          </li><!--promote-->
+          <li class="sustainability main_menu">
+            <div class="main_menu_tab">
+              <p>지속가능경영</p>
+              <i class="fa-solid fa-caret-down down"></i>
+              <i class="fa-solid fa-caret-up up"></i>
+            </div>
+            <ul class="seb_menu_box">
+              <li><a href="#!">개요</a></li>
+              <li><a href="#!">안전 · 보건 · 환경</a></li>
+              <li><a href="#!">윤리경영</a></li>
+              <li><a href="#!">준법경영</a></li>
+              <li><a href="#!">품질경영</a></li>
+              <li><a href="#!">사회공헌</a></li>
+              <li><a href="#!">통합보고서</a></li>
+              <li><a href="#!">녹색채권인증평가</a></li>
+              <li><a href="#!">지속가능한공급망</a></li>
+            </ul>
+          </li><!--sustainability-->
+          <li class="growth main_menu">
+            <div class="main_menu_tab">
+              <p>구매·동반성장</p>
+              <i class="fa-solid fa-caret-down down"></i>
+              <i class="fa-solid fa-caret-up up"></i>
+            </div>
+            <ul class="seb_menu_box">
+              <li><a href="#!">신규협력회사등록</a></li>
+              <li><a href="#!">통합구매센터</a></li>
+              <li><a href="#!">입찰공고</a></li>
+              <li><a href="#!">인재채용</a></li>
+              <li><a href="#!">기술교육원</a></li>
+            </ul>
+          </li><!--growth-->
+          <li class="investment main_menu">
+            <div class="main_menu_tab">
+              <p>투자자정보</p>
+              <i class="fa-solid fa-caret-down down"></i>
+              <i class="fa-solid fa-caret-up up"></i>
+            </div>
+            <ul class="seb_menu_box">
+              <li><a href="#!">공시/공고</a></li>
+              <li><a href="#!">지배구조</a></li>
+              <li><a href="#!">재무정보</a></li>
+              <li><a href="#!">주가정보</a></li>
+              <li><a href="#!">IR 자료실</a></li>
+              <li><a href="#!">IR 문의</a></li>
+            </ul>
+          </li><!--investment-->
+        </ul><!--lnb-->
+        <div class="sns">
+          <div class="instagram">
+            <a href="#!">
+              <img src="./image/icon/instagram.png" alt="instagram_logo">
+            </a>
+          </div>
+          <div class="facebook">
+            <a href="#!">
+              <img src="./image/icon/facebook.png" alt="instagram_logo">
+            </a>
+          </div>
+          <div class="youtube">
+            <a href="#!">
+              <img src="./image/icon/youtube.png" alt="instagram_logo">
+            </a>
+          </div>
+          <div class="blog">
+            <a href="#!">
+              <img src="./image/icon/blog.png" alt="instagram_logo">
+            </a>
+          </div>
+        </div><!--sns-->
+      </div><!--hamburder_box-->
+    </div>
+  </header><!--header-->
+
+  <input type="radio" name="jops_btn" id="jops_new" checked>
+  <input type="radio" name="jops_btn" id="jops_career">
+
+  <div class="fullpage">
+    <section class="intro section">
+      <div class="mySwiper">
+        <div class="swiper-wrapper">
+          <div class="intro_01 intro_box swiper-slide">
+            <video data-autoplay muted loop>
+              <source src="./video/visualmain01.mp4" type="video/mp4">
+            </video>
+            <div class="intro_inner_box">
+              <div class="intro_text">
+                <p class="number">01</p>
+                <p class="seb_text">시대를 이끄는 혁신과 도전으로</p>
+                <p class="main_text">인류의 미래를 개척합니다</p>
+                <div class="more">
+                  <a href="#!">
+                    <p>more</p>
+                    <div class="more_arrow">
+                      <img src="./image/icon/more.png" alt="more_img">
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="mousewheel_ani">
+                <p>scroll</p>
+                <div class="mouse">
+                  <div class="mousewheel"></div>
+                </div>
+              </div>
+            </div>
+            <div class="timeline"></div>
+          </div><!--intro_01-->
+          <div class="intro_02 intro_box swiper-slide">
+            <video data-autoplay muted loop>
+              <source src="./video/visualmain02.mp4" type="video/mp4">
+            </video>
+            <div class="intro_inner_box">
+              <div class="intro_text">
+                <p class="number">02</p>
+                <p class="seb_text">기업의 사회적 책임을 실천하여</p>
+                <p class="main_text">지속가능한 세상을 만듭니다</p>
+                <div class="more">
+                  <a href="#!">
+                    <p>more</p>
+                    <div class="more_arrow">
+                      <img src="./image/icon/more.png" alt="more_img">
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="mousewheel_ani">
+                <p>scroll</p>
+                <div class="mouse">
+                  <div class="mousewheel"></div>
+                </div>
+              </div>
+            </div>
+            <div class="timeline"></div>
+          </div><!--intro_02-->
+          <div class="intro_03 intro_box swiper-slide">
+            <video data-autoplay muted loop>
+              <source src="./video/visualmain03.mp4" type="video/mp4">
+            </video>
+            <div class="intro_inner_box">
+              <div class="intro_text">
+                <p class="number">03</p>
+                <p class="seb_text">1% 나눔 등 다양한 사회공헌 활동으로</p>
+                <p class="main_text">행복한 사회를 만듭니다</p>
+                <div class="more">
+                  <a href="#!">
+                    <p>more</p>
+                    <div class="more_arrow">
+                      <img src="./image/icon/more.png" alt="more_img">
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="mousewheel_ani">
+                <p>scroll</p>
+                <div class="mouse">
+                  <div class="mousewheel"></div>
+                </div>
+              </div>
+            </div>
+            <div class="timeline"></div>
+          </div><!--intro_03-->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section><!--intro-->
+  
+    <section class="industries section">
+      <p class="section_title">Happy Industries</p>
+      <div class="section_text">
+        <div>
+          <p class="notebook">지속가능한 미래를 향한 가치창조,</p>
+          <p class="notebook">그 중심에는 사람이 있습니다.</p>
+        </div>
+        <div>
+          <p class="notebook">사람을 먼저 생각하는 마음가짐은</p>
+          <p class="notebook">더 나은 내일을 향한 우리의 약속입니다.</p>
+        </div>
+      </div>
+      <ul class="industries_box">
+        <li class="industries_01">
+          <div class="industries_content">
+            <img src="./image/industries/industries01.png" alt="industries_01_img">
+            <div class="industries_box_text">
+              <p class="">세상을 이끄는 혁신</p>
+              <div class="none">
+                <p class="mobile">창의적인 사고로 </p>
+                <p class="mobile">일하는 방식을 혁신합니다.</p>
+              </div>
+            </div>
+          </div>
+        </li><!--industries_01-->
+        <li class="industries_02">
+          <div class="industries_content">
+            <img src="./image/industries/industries02.png" alt="industries_02_img">
+            <div class="industries_box_text">
+              <p>두려움 없는 도전</p>
+              <div class="none">
+                <p class="mobile">끊임없는 한계에 도전하여</p>
+                <p class="mobile">새로운 가치를 창출합니다.</p>
+              </div>
+            </div>
+          </div>
+        </li><!--industries_02-->
+        <li class="industries_03">
+          <div class="industries_content">
+            <img src="./image/industries/industries03.png" alt="industries_03_img">
+            <div class="industries_box_text">
+              <p>서로에 대한 존중</p>
+              <div class="none">
+                <p class="mobile">서로의 다양성을 존중하며</p>
+                <p class="mobile">더 나은 세상을 만듭니다.</p>
+              </div>
+            </div>
+          </div>
+        </li><!--industries_03-->
+        <li class="industries_04">
+          <div class="industries_content">
+            <img src="./image/industries/industries04.png" alt="industries_04_img">
+            <div class="industries_box_text">
+              <p>모두를 위한 안전</p>
+              <div class="none">
+                <p class="mobile">우리 스스로를 위한 </p>
+                <p class="mobile">최고 안전기준을 지향합니다.</p>
+              </div>
+            </div>
+          </div>
+        </li><!--industries_04-->
+      </ul>
+    </section><!--industries-->
+  
+    <section class="business section">
+      <ul class="business_slick">
+        <li class="business_01 business_box business_on">
+          <picture class="business_img">
+            <source media="(min-width: 768px)" srcset="./image/business/business01.jpg">
+            <source media="(min-width: 320px)" srcset="./image/business/business01_mobile.jpg">
+            <img src="./image/business/business01_mobile.jpg" alt="business_01_img">
+          </picture>
+          <div class="business_text">
+            <div class="business_name">
+              조선해양
+              <div class="more mobile">
+                <a href="#!">
+                  <div class="more_arrow">
+                    <img src="./image/icon/more.png" alt="more_img">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <p>넘볼 수 없는 세계 1위의 역량으로</p>
+            <p class="tablet">고객의 성공적인 미래를 함께</p>
+            <p class="tablet">만들어 가고 있습니다.</p>
+            <div class="more tablet">
+              <a href="#!">
+                <p>more</p>
+                <div class="more_arrow">
+                  <img src="./image/icon/more.png" alt="more_img">
+                </div>
+              </a>
+            </div>
+          </div>
+        </li><!--business_box_01-->
+        <li class="business_02 business_box business_off">
+          <picture class="business_img">
+            <source media="(min-width: 768px)" srcset="./image/business/business02.jpg">
+            <source media="(min-width: 320px)" srcset="./image/business/business02_mobile.jpg">
+            <img src="./image/business/business02_mobile.jpg" alt="business_02_img">
+          </picture>
+          <div class="business_text">
+            <div class="business_name">
+              특수선
+              <div class="more mobile">
+                <a href="#!">
+                  <div class="more_arrow">
+                    <img src="./image/icon/more.png" alt="more_img">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <p>1975년 한국 최초의 국산 전투함인</p>
+            <p>울산함 개발을 시작으로 우리나라 조함자립의</p>
+            <p>선구자적인 역할을 수행해 왔습니다.</p>
+            <div class="more tablet">
+              <a href="#!">
+                <p>more</p>
+                <div class="more_arrow">
+                  <img src="./image/icon/more.png" alt="more_img">
+                </div>
+              </a>
+            </div>
+          </div>
+        </li><!--business_box_03-->
+        <li class="business_03 business_box business_off">
+          <picture class="business_img">
+            <source media="(min-width: 768px)" srcset="./image/business/business03.jpg">
+            <source media="(min-width: 320px)" srcset="./image/business/business03_mobile.jpg">
+            <img src="./image/business/business03_mobile.jpg" alt="business_03_img">
+          </picture>
+          <div class="business_text">
+            <div class="business_name">
+              엔진기계
+              <div class="more mobile">
+                <a href="#!">
+                  <div class="more_arrow">
+                    <img src="./image/icon/more.png" alt="more_img">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <p>세계적인 기술을 자랑하는 글로벌 엔진 빌더로</p>
+            <p>전세계 시장에 35%의 대형엔진을 공급하는</p>
+            <p>부동의 1위 자리를 유지하고 있습니다.</p>
+            <div class="more tablet">
+              <a href="#!">
+                <p>more</p>
+                <div class="more_arrow">
+                  <img src="./image/icon/more.png" alt="more_img">
+                </div>
+              </a>
+            </div>
+          </div>
+        </li><!--business_box_03-->
+        <li class="business_04 business_box business_off">
+          <picture class="business_img">
+            <source media="(min-width: 768px)" srcset="./image/business/business04.jpg">
+            <source media="(min-width: 320px)" srcset="./image/business/business04_mobile.jpg">
+            <img src="./image/business/business04_mobile.jpg" alt="business_04_img">
+          </picture>
+          <div class="business_text">
+            <div class="business_name">
+              연구개발
+              <div class="more mobile">
+                <a href="#!">
+                  <div class="more_arrow">
+                    <img src="./image/icon/more.png" alt="more_img">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <p>세계적인 기술을 자랑하는 글로벌 리더,</p>
+            <p>끊임없는 연구개발을 통한 신기술 개발로</p>
+            <p>회사의 기술경쟁력을 강화하고 있습니다.</p>
+            <div class="more tablet">
+              <a href="#!">
+                <p>more</p>
+                <div class="more_arrow">
+                  <img src="./image/icon/more.png" alt="more_img">
+                </div>
+              </a>
+            </div>
+          </div>
+        </li><!--business_box_04-->
+      </ul>
+      <div class="business_button">
+        <div class="prev"></div>
+        <div class="next"></div>
+      </div><!--business_button-->
+    </section><!--business-->
+
+    <section class="sustainability section">
+      <ul>
+        <li class="sustain01 sustain_box on">
+          <div class="sustain_img">
+            <picture class="business_img">
+              <source media="(min-width: 769px)" srcset="./image/sustainability/sustainability01.jpg">
+              <source media="(min-width: 320px)" srcset="./image/sustainability/sustainability01_mobile.jpg" >
+              <img src="./image/sustainability/sustainability01_mobile.jpg" alt="sustainability01_img">
+            </picture>
+          </div>
+          <div class="sustain_text_box">
+            <div class="sustain_title">
+              안전·보건·환경
+              <div class="more mobile">
+                <a href="#!">
+                  <div class="more_arrow">
+                    <img src="./image/icon/more.png" alt="more_img">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="sustain_text">
+              <p>안전하고 환경친화적인 경영을 추구하여</p>
+              <p class="desktop">인류의 행복과 풍요로운 삶을 구현하는</p>
+              <p class="desktop">자랑스러운 기업이 되겠습니다.</p>
+            </div>
+            <div class="more tablet">
+              <a href="#!">
+                <p>more</p>
+                <div class="more_arrow">
+                  <img src="./image/icon/more.png" alt="more_img">
+                </div>
+              </a>
+            </div>
+          </div><!--sestain_text_box-->
+        </li><!--sustain01-->
+        <li class="sustain02 sustain_box">
+          <div class="sustain_img">
+            <picture class="business_img">
+              <source media="(min-width: 769px)" srcset="./image/sustainability/sustainability02.jpg">
+              <source media="(min-width: 320px)" srcset="./image/sustainability/sustainability02_mobile.jpg" >
+              <img src="./image/sustainability/sustainability02_mobile.jpg" alt="sustainability02_img">
+            </picture>
+          </div>
+          <div class="sustain_text_box">
+            <div class="sustain_title">
+              윤리경영
+              <div class="more mobile">
+                <a href="#!">
+                  <div class="more_arrow">
+                    <img src="./image/icon/more.png" alt="more_img">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="sustain_text">
+              <p>공정성과 주인의식으로</p>
+              <p class="desktop">고객, 주주 등 모든 이해관계자들에게</p>
+              <p class="desktop">책임있는 자세를 가집니다.</p>
+            </div>
+            <div class="more tablet">
+              <a href="#!">
+                <p>more</p>
+                <div class="more_arrow">
+                  <img src="./image/icon/more.png" alt="more_img">
+                </div>
+              </a>
+            </div>
+          </div><!--sestain_text_box-->
+        </li><!--sustain02-->
+        <li class="sustain03 sustain_box">
+          <div class="sustain_img">
+            <picture class="business_img">
+              <source media="(min-width: 769px)" srcset="./image/sustainability/sustainability03.jpg">
+              <source media="(min-width: 320px)" srcset="./image/sustainability/sustainability03_mobile.jpg" >
+              <img src="./image/sustainability/sustainability03_mobile.jpg" alt="sustainability03_img">
+            </picture>
+          </div>
+          <div class="sustain_text_box">
+            <div class="sustain_title">
+              준법경영
+              <div class="more mobile">
+                <a href="#!">
+                  <div class="more_arrow">
+                    <img src="./image/icon/more.png" alt="more_img">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="sustain_text">
+              <p>상호신뢰와 준법의식을 바탕으로</p>
+              <p class="desktop">공정하고 깨끗한 기업문화 장착에</p>
+              <p class="desktop">최선을 다할 것을 결의합니다.</p>
+            </div>
+            <div class="more tablet">
+              <a href="#!">
+                <p>more</p>
+                <div class="more_arrow">
+                  <img src="./image/icon/more.png" alt="more_img">
+                </div>
+              </a>
+            </div>
+          </div><!--sestain_text_box-->
+        </li><!--sustain03-->
+        <li class="sustain04 sustain_box">
+          <div class="sustain_img">
+            <picture class="business_img">
+              <source media="(min-width: 769px)" srcset="./image/sustainability/sustainability04.jpg">
+              <source media="(min-width: 320px)" srcset="./image/sustainability/sustainability04_mobile.jpg" >
+              <img src="./image/sustainability/sustainability04_mobile.jpg" alt="sustainability04_img">
+            </picture>
+          </div>
+          <div class="sustain_text_box">
+            <div class="sustain_title">
+              품질경영
+              <div class="more mobile">
+                <a href="#!">
+                  <div class="more_arrow">
+                    <img src="./image/icon/more.png" alt="more_img">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="sustain_text">
+              <p>도전을 멈추지 않는 뜨거운 열정과</p>
+              <p class="desktop">원칙에 대한 강한 신념으로</p>
+              <p class="desktop">지속가능한 미래를 열어가겠습니다.</p>
+            </div>
+            <div class="more tablet">
+              <a href="#!">
+                <p>more</p>
+                <div class="more_arrow">
+                  <img src="./image/icon/more.png" alt="more_img">
+                </div>
+              </a>
+            </div>
+          </div><!--sestain_text_box-->
+        </li><!--sustain04-->
+        <li class="sustain05 sustain_box">
+          <div class="sustain_img">
+            <picture class="business_img">
+              <source media="(min-width: 769px)" srcset="./image/sustainability/sustainability05.jpg">
+              <source media="(min-width: 320px)" srcset="./image/sustainability/sustainability05_mobile.jpg" >
+              <img src="./image/sustainability/sustainability05_mobile.jpg" alt="sustainability05_img">
+            </picture>
+          </div>
+          <div class="sustain_text_box">
+            <div class="sustain_title">
+              사회공헌
+              <div class="more mobile">
+                <a href="#!">
+                  <div class="more_arrow">
+                    <img src="./image/icon/more.png" alt="more_img">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="sustain_text">
+              <p class="desktop">보다 더 나은 삶을 위한</p>
+              <p class="desktop">지속적인 관심과 공헌으로</p>
+              <p>미래를 향한 노력은 계속됩니다.</p>
+            </div>
+            <div class="more tablet">
+              <a href="#!">
+                <p>more</p>
+                <div class="more_arrow">
+                  <img src="./image/icon/more.png" alt="more_img">
+                </div>
+              </a>
+            </div>
+          </div><!--sestain_text_box-->
+        </li><!--sustain05-->
+      </ul>
+      <div class="sustain_tab">
+        <div class="sustain_title_box">
+          <div class="sustain_title">
+            지속가능경영
+            <div class="more mobile">
+              <a href="#!">
+                <div class="more_arrow">
+                  <img src="./image/icon/more.png" alt="more_img">
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="sustain_title_text">
+            <p>지속적인 성장을 위해</p>
+            <p>기업의 사회적 책임을 실천합니다.</p>
+          </div>
+          <div class="more tablet">
+            <a href="#!">
+              <p>more</p>
+              <div class="more_arrow">
+                <img src="./image/icon/more.png" alt="more_img">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="sustain_btn">
+          <ul>
+            <li class="sustain_btn01 checked">안전·보건·환경</li>
+            <li class="sustain_btn02">윤리경영</li>
+            <li class="sustain_btn03">준법경영</li>
+            <li class="sustain_btn04">품질경영</li>
+            <li class="sustain_btn05">사회공헌</li>
+          </ul>
+        </div>
+      </div><!--sustain_tab-->
+    </section><!--sustainability-->
+
+    <section class="media section">
+      <p class="section_title">미디어 센터</p>
+      <div class="section_text">
+        <p class="tablet">HD현대중공업의 다양하고</p>
+        <p class="tablet">생생한 소식을 빠르게 전해 드립니다.</p>
+      </div>
+      <ul class="media_tap">
+        <li class="news checked">보도자료</li>
+        <li class="blog">블로그</li>
+        <li class="youtube">유튜브</li>
+      </ul>
+      <ul class="news_box media_box media_slick">
+        <li class="news_01 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/news/news01.jpg" alt="news_01_img">
+            </div>
+            <p class="content_title">HD현대, 수능 보는 임직원 자녀에 응원 선물</p>
+            <p class="content_date">2023-11-09</p>
+          </a>
+        </li><!--news_01-->
+        <li class="news_02 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/news/news02.jpg" alt="news_02_img">
+            </div>
+            <p class="content_title">HD현대중공업 세계문화축제 성황</p>
+            <p class="content_date">2023-10-29</p>
+          </a>
+        </li><!--news_02-->
+        <li class="news_03 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/news/news03.jpg" alt="news_03_img">
+            </div>
+            <p class="content_title">HD현대, 대형선용 저탄소 전기추진시스템 독자 개발</p>
+            <p class="content_date">2023-10-27</p>
+          </a>
+        </li><!--news_03-->
+        <li class="news_04 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/news/news04.jpg" alt="news_04_img">
+            </div>
+            <p class="content_title">HD현대중공업, 신형 호위함 건조 성공적 마무리</p>
+            <p class="content_date">2023-10-24</p>
+          </a>
+        </li><!--news_04-->
+        <li class="news_05 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/news/news05.jpg" alt="news_05_img">
+            </div>
+            <p class="content_title">HD현대, ‘탄소 제로’ 미래 선박 기술 대거 선보인다</p>
+            <p class="content_date">2023-10-24</p>
+          </a>
+        </li><!--news_05-->
+        <li class="news_06 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/news/news06.jpg" alt="news_06_img">
+            </div>
+            <p class="content_title">HD현대, 외국인 근로자 전용 기숙사 추가 개소</p>
+            <p class="content_date">2023-10-20</p>
+          </a>
+        </li><!--news_06-->
+        <li class="news_07 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/news/news07.jpg" alt="news_07_img">
+            </div>
+            <p class="content_title">HD현대1%나눔재단, 청소년 ‘희망나눔 장학금’ 지원</p>
+            <p class="content_date">2023-10-20</p>
+          </a>
+        </li><!--news_07-->
+        <li class="news_08 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/news/news08.jpg" alt="news_08_img">
+            </div>
+            <p class="content_title">HD현대, KAI·LIG와 함정 경쟁력 강화 협력</p>
+            <p class="content_date">2023-10-19</p>
+          </a>
+        </li><!--news_08-->
+        <li class="news_09 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/news/news09.jpg" alt="news_09_img">
+            </div>
+            <p class="content_title">HD현대, 국내 최대 CCS 프로젝트 참여한다</p>
+            <p class="content_date">2023-10-16</p>
+          </a>
+        </li><!--news_09-->
+        <li class="news_10 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/news/news10.jpg" alt="news_10_img">
+            </div>
+            <p class="content_title">HD현대, 지역 복지시설 종사자에 ‘문화 나눔’</p>
+            <p class="content_date">2023-10-14</p>
+          </a>
+        </li><!--news_10-->
+        <li class="news_11 medai_list">
+          <a href="#!">
+            <div class="media_img">  
+              <img src="./image/media/news/news11.jpg" alt="news_11_img">
+            </div>
+            <p class="content_title">HD현대 외국 선사 지역 복지시설 기부 잇따라</p>
+            <p class="content_date">2023-10-12</p>
+          </a>
+        </li><!--news_11-->
+        <li class="news_12 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/news/news12.jpg" alt="news_12_img">
+            </div>
+            <p class="content_title">HD현대중공업 노사, 안전한 작업장 조성에 한마음</p>
+            <p class="content_date">2023-10-11</p>
+          </a>
+        </li><!--news_12-->
+      </ul><!--news_box-->
+      <ul class="blog_box media_box media_slick">
+        <li class="blog_01 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/blog/blog01.jpg" alt="blog_01_img">
+            </div>
+            <p class="content_title">HD현대, 세계 최대 가스서 친환경 미래기술 선보여</p>
+            <p class="content_date">2023-09-05</p>
+          </a>
+        </li><!--blog_01-->
+        <li class="blog_02 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/blog/blog02.jpg" alt="blog_02_img">
+            </div>
+            <p class="content_title">“통쾌한 원, 투!” 복싱으로 체력증진과 즐거움을 한 번에</p>
+            <p class="content_date">2023-08-08</p>
+          </a>
+        </li><!--blog_02-->
+        <li class="blog_03 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/blog/blog03.jpg" alt="blog_03_img">
+            </div>
+            <p class="content_title">K-조선 · 해양 미래 기술 뽐냈다!</p>
+            <p class="content_date">2023-06-06</p>
+          </a>
+        </li><!--blog_03-->
+        <li class="blog_04 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/blog/blog04.jpg" alt="nblog_04_img">
+            </div>
+            <p class="content_title">“우리 아이 돌봄 걱정 없어요”</p>
+            <p class="content_date">2023-05-30</p>
+          </a>
+        </li><!--blog_04-->
+        <li class="blog_05 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/blog/blog05.jpg" alt="blog_05_img">
+            </div>
+            <p class="content_title">대학 캠퍼스에 HD현대가 떴다</p>
+            <p class="content_date">2023-05-23</p>
+          </a>
+        </li><!--blog_05-->
+        <li class="blog_06 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/blog/blog06.jpg" alt="blog_06_img">
+            </div>
+            <p class="content_title">‘신 가치체계’ 이해를 넘어 실천으로</p>
+            <p class="content_date">2023-04-20</p>
+          </a>
+        </li><!--blog_06-->
+        <li class="blog_07 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/blog/blog07.jpg" alt="blog_07_img">
+            </div>
+            <p class="content_title">HD현대 ‘정말 일하고 싶은 회사’ 만든다!</p>
+            <p class="content_date">2023-03-07</p>
+          </a>
+        </li><!--blog_07-->
+        <li class="blog_08 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/blog/blog08.jpg" alt="blog_08_img">
+            </div>
+            <p class="content_title">바다의 무한한 잠재력, 우리가 실현!</p>
+            <p class="content_date">2023-01-17</p>
+          </a>
+        </li><!--blog_08-->
+        <li class="blog_09 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/blog/blog09.jpg" alt="blog_09_img">
+            </div>
+            <p class="content_title">‘HD현대’ 새 이름의 시작</p>
+            <p class="content_date">2023-01-03</p>
+          </a>
+        </li><!--blog_09-->
+        <li class="blog_10 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/blog/blog10.jpg" alt="blog_10_img">
+            </div>
+            <p class="content_title">HD현대 정기선 대표, 사우디 투자부 장관과 협력확대 논의</p>
+            <p class="content_date">2022-11-14</p>
+          </a>
+        </li><!--blog_10-->
+        <li class="blog_11 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/blog/blog11.jpg" alt="blog_11_img">
+            </div>
+            <p class="content_title">화재 제로 ‘차세대 ESS’ 개발 손 잡았다</p>
+            <p class="content_date">2022-02-07</p>
+          </a>
+        </li><!--blog_11-->
+        <li class="blog_12 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/blog/blog12.jpg" alt="blog_12_img">
+            </div>
+            <p class="content_title">희망의 6월, HHI Family 에는</p>
+            <p class="content_date">2021-06-29</p>
+          </a>
+        </li><!--blog_12-->
+      </ul><!--blog_box-->
+      <ul class="youtube_box media_box media_slick">
+        <li class="youtube_01 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/youtube/youtube01.jpg" alt="youtube_01_img">
+            </div>
+            <p class="content_title">미션!! 초대형 선박에 연료 가득 채우기_가격은 얼마? 주유소 몇개? [호기심Q 26편]</p>
+            <p class="content_date">2023-11-06</p>
+          </a>
+        </li><!--youtube_01-->
+        <li class="youtube_02 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/youtube/youtube02.jpg" alt="youtube_02_img">
+            </div>
+            <p class="content_title">한국 왔어요 축제 좋아요 HD현대중공업과 함께하는 세계문화축제</p>
+            <p class="content_date">2023-11-02</p>
+          </a>
+        </li><!--youtube_02-->
+        <li class="youtube_03 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/youtube/youtube03.jpg" alt="youtube_03_img">
+            </div>
+            <p class="content_title">현중V로그_세계 최고의 조선소에서 최고의 선박을 움직이는 사람들_운항관제부 책임매니저의 하루</p>
+            <p class="content_date">2023-10-31</p>
+          </a>
+        </li><!--youtube_03-->
+        <li class="youtube_04 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/youtube/youtube04.jpg" alt="youtube_04_img">
+            </div>
+            <p class="content_title">HD현대, '코마린(KORMARINE) 2023' 참가 (feat. 미래형 수소 운반선)</p>
+            <p class="content_date">2023-10-25</p>
+          </a>
+        </li><!--youtube_04-->
+        <li class="youtube_05 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/youtube/youtube05.jpg" alt="youtube_05_img">
+            </div>
+            <p class="content_title">※HD현대 취업꿀팁※ ESG 어디까지 알고 있니?｜공채 면접 앞둔 사람들 필수 시청!! 한번에 합격한 노하우를 전수한다｜취준저격｜하이잡스 ESG추진부 유효진 매니저편</p>
+            <p class="content_date">2023-10-11</p>
+          </a>
+        </li><!--youtube_05-->
+        <li class="youtube_06 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/youtube/youtube06.jpg" alt="youtube_06_img">
+            </div>
+            <p class="content_title">정말 이것이 궁금하다_초대형 선박에 들어가는 블록의 개수는?_[호기심Q 25편]</p>
+            <p class="content_date">2023-10-10</p>
+          </a>
+        </li><!--youtube_06-->
+        <li class="youtube_07 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/youtube/youtube07.jpg" alt="youtube_07_img">
+            </div>
+            <p class="content_title">※취준꿀팁※ K조선 국내 최고 기술명인이 여기서 탄생??!!_하이잡스 기술교육원 김형민 선임편</p>
+            <p class="content_date">2023-07-13</p>
+          </a>
+        </li><!--youtube_07-->
+        <li class="youtube_08 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/youtube/youtube08.jpg" alt="youtube_08_img">
+            </div>
+            <p class="content_title">※외국인사우가 말하는 K조선</p>
+            <p class="content_date">2023-06-21</p>
+          </a>
+        </li><!--youtube_08-->
+        <li class="youtube_09 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/youtube/youtube09.jpg" alt="youtube_09_img">
+            </div>
+            <p class="content_title">최고의 여름 휴가를 선사합니다_K조선 넘버원 HD현대중공업의 하계휴양지를 찾아라 [호기심Q 22편]</p>
+            <p class="content_date">2023-06-19</p>
+          </a>
+        </li><!--youtube_09-->
+        <li class="youtube_10 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/youtube/youtube10.jpg" alt="youtube_10_img">
+            </div>
+            <p class="content_title">나도 작가다-인생은 아름다워_HD현대중공업 가족들이 선보이는 주옥같은 작품 세계</p>
+            <p class="content_date">22023-06-16</p>
+          </a>
+        </li><!--youtube_10-->
+        <li class="youtube_11 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/youtube/youtube11.jpg" alt="youtube_11_img">
+            </div>
+            <p class="content_title">K조선 넘버원!!! 구독자 특별 이벤트_최신 스마트 워치를 내 손안에~~</p>
+            <p class="content_date">2023-06-13</p>
+          </a>
+        </li><!--youtube_11-->
+        <li class="youtube_12 medai_list">
+          <a href="#!">
+            <div class="media_img">
+              <img src="./image/media/youtube/youtube12.jpg" alt="youtube_12_img">
+            </div>
+            <p class="content_title">HD현대중공업_MADEX 2023 K방산기술 선보였다</p>
+            <p class="content_date">2023-06-09</p>
+          </a>
+        </li><!--youtube_12-->
+      </ul><!--youtube_box-->
+    </section><!--media-->
+
+    <section class="jops section">
+      <div class="jops_header"></div>
+      <p class="section_title">인재채용</p>
+      <div class="section_text">
+        <p class="tablet">HD현대의 새로운 50년을</p>
+        <p class="tablet">함께 열어갈 인재를 모집합니다.</p>
+      </div>
+      <div class="jops_inner">
+        <div class="jops_box">
+          <div class="jops_title">
+            <p>진행중인 채용공고</p>
+            <div class="jops_tap">
+              <label for="jops_new" class="jops_new_btn">신입</label>
+              <label for="jops_career" class="jops_career_btn">경력</label>
+            </div>
+          </div>
+          <div class="jops_content_box new_box">
+            <div class="box_header">
+              <p class="box_title">신입/인턴/장학생</p>
+              <div class="number"><span>5</span>건</div>
+              <div class="more">
+                <a href="#!">
+                  <div class="more_arrow">
+                    <img src="./image/icon/more_black.png" alt="more_img">
+                  </div>
+                </a>
+              </div>
+            </div><!--box_header-->
+            <div class="jops_list_container">
+              <ul class="jops_list_box">
+                <li class="new_list">
+                  <p class="jops_name"><a href="#!">조선해양) 해양 시운전 신입사원 모집</a></p>
+                  <p class="jops_date">D-4</p>
+                </li>
+                <li class="new_list">
+                    <p class="jops_name"><a href="#!">23년 신입사원 수시 채용</a></p>
+                    <p class="jops_date">D-13</p>
+                </li>
+                <li class="new_list">
+                  <p class="jops_name"><a href="#!">생산기술직(기계설치) 신입사원 모집</a></p>
+                  <p class="jops_date">D-8</p>
+                </li>
+                <li class="new_list">
+                  <p class="jops_name"><a href="#!">사무지원직 신입사원 채용</a></p>
+                  <p class="jops_date">D-3</p>
+                </li>
+                <li class="new_list">
+                  <p class="jops_name"><a href="#!">생산전문 인턴 모집</a></p>
+                  <p class="jops_date">D-day</p>
+                </li>
+              </ul>
+            </div><!--jops_list_container-->
+            <div class="jops_btn jops_btn_up"><i class="fa-solid fa-caret-up"></i></div>
+            <div class="jops_btn jops_btn_down"><i class="fa-solid fa-caret-down"></i></div>
+          </div><!--new_box-->
+          <div class="jops_content_box career_box">
+            <div class="box_header">
+              <p class="box_title">경력/상시</p>
+              <div class="number"><span>7</span>건</div>
+              <div class="more">
+                <a href="#!">
+                  <div class="more_arrow">
+                    <img src="./image/icon/more_black.png" alt="more_img">
+                  </div>
+                </a>
+              </div>
+            </div><!--box_header-->
+            <div class="jops_list_container">
+              <ul class="jops_list_box">
+                <li class="career_list">
+                    <p class="jops_name"><a href="#!">설계직무 경력사원 모집(연장)</a></p>
+                    <p class="jops_date">D-27</p>
+                </li>
+                <li class="career_list">
+                  <a href="#!">
+                    <p class="jops_name"><a href="#!">생산기술직(기계설치) 경력사원 모집</a></p>
+                    <p class="jops_date">D-8</p>
+                  </a>
+                </li>
+                <li class="career_list">
+                  <a href="#!">
+                    <p class="jops_name"><a href="#!">23년 운영 생산기술직 경력사원 모집</a></p>
+                    <p class="jops_date">D-2</p>
+                  </a>
+                </li>
+                <li class="career_list">
+                  <a href="#!">
+                    <p class="jops_name"><a href="#!">사무행정보조 경력직 모집</a></p>
+                    <p class="jops_date">D-1</p>
+                  </a>
+                </li>
+                <li class="career_list">
+                  <a href="#!">
+                    <p class="jops_name"><a href="#!">가스안전관리자 모집</a></p>
+                    <p class="jops_date">D-6</p>
+                  </a>
+                </li>
+                <li class="career_list">
+                  <a href="#!">
+                    <p class="jops_name"><a href="#!">HD현대글로벌서비스 경력사원 상시 채용</a></p>
+                    <p class="jops_date">D-20</p>
+                  </a>
+                </li>
+                <li class="career_list">
+                  <a href="#!">
+                    <p class="jops_name"><a href="#!">설계직무 경력사원 모집</a></p>
+                    <p class="jops_date">D-11</p>
+                  </a>
+                </li>
+              </ul>
+            </div><!--jops_list_container-->
+            <div class="jops_btn jops_btn_up"><i class="fa-solid fa-caret-up"></i></div>
+            <div class="jops_btn jops_btn_down"><i class="fa-solid fa-caret-down"></i></div>
+          </div><!--career_box-->
+        </div><!--jops_box-->
+          <ul class="jops_metapo">
+            <li>
+              <a href="#!">
+                <div class="jops_metapo_img metapo_off">
+                  <img src="./image/jops/notice.png" alt="notice_img">
+                </div>
+                <div class="jops_metapo_img metapo_on">
+                  <img src="./image/jops/notice_hover.png" alt="notice_hover_img">
+                </div>
+                <p>공지사항</p>
+              </a>
+            </li>
+            <li>
+              <a href="#!"> 
+                <div class="jops_metapo_img metapo_off">
+                  <img src="./image/jops/talent.png" alt="talent_img">
+                </div>
+                <div class="jops_metapo_img metapo_on">
+                  <img src="./image/jops/talent_hover.png" alt="talent_hover_img">
+                </div>
+                <p>인재풀</p>
+              </a>
+            </li>
+            <li>
+              <a href="#!">
+                <div class="jops_metapo_img metapo_off">
+                  <img src="./image/jops/faq.png" alt="faq_img">
+                </div>
+                <div class="jops_metapo_img metapo_on">
+                  <img src="./image/jops/faq_hover.png" alt="faq_hover_img">
+                </div>
+                <p>FAQ</p>
+              </a>
+            </li>
+            <li>
+              <a href="#!">
+                <div class="jops_metapo_img metapo_off">
+                  <img src="./image/jops/mail.png" alt="mail_img">
+                </div>
+                <div class="jops_metapo_img metapo_on">
+                  <img src="./image/jops/mail_hover.png" alt="mail_hover_img">
+                </div>
+                <p>채용문의</p>
+              </a>
+            </li>
+          </ul>
+      </div>
+    </section><!--jops-->
+
+    <footer class="footer fp-auto-height section">
+      <div class="footer_top">
+        <ul>
+          <li><a href="#!">CONTACT US</a></li>
+          <li class="footer_sns">
+            <div class="footer_instagram">
+              <a href="#!">
+                <img src="./image/icon/instagram.png" alt="instagram_img">
+              </a>
+            </div>
+            <div class="footer_facebook">
+              <a href="#!">
+              <img src="./image/icon/facebook.png" alt="instagram_img">
+            </a>
+            </div>
+            <div class="footer_youtube">
+              <a href="#!">
+              <img src="./image/icon/youtube.png" alt="instagram_img">
+            </a>
+            </div>
+            <div class="footer_blog">
+              <a href="#!">
+              <img src="./image/icon/blog.png" alt="instagram_img">
+            </a>
+            </div>
+          </li>
+          <ul>
+            <li class="certificate"><a href="#!">퇴직자 재직증명서</a></li>
+            <li>
+              <select onchange="window.open(value,'_blank');">
+                <option value="#!">사이트링크</option>
+                <option value="https://ex-hihr.hhi.co.kr/EHR/websquare/websquare.html?w2xPath=/UI/MAIN/ZCOM_J0000_01_M.xml">신인사시스템</option>
+                <option value="https://hiclass.hd.com/front/member/LoginAction.do?method=login">사이버러닝센터</option>
+                <option value="https://www.hhiarts.co.kr/main/">현대예술관</option>
+                <option value="http://visitor.hhi.co.kr/mvcmys/1/visits/indx">외부방문객시스템</option>
+              </select>
+            </li>
+            <li>
+              <select onchange="window.open(value,'_blank');">
+                <option value="#!">그룹사 바로가기</option>
+                <option value="https://www.hd.com/">HD현대</option>
+                <option value="http://www.hdksoe.co.kr/">HD한국조선해양</option>
+                <option value="https://www.hmd.co.kr/main/main.jsp">현대미포조선</option>
+                <option value="https://www.hshi.co.kr/">현대삼호중공업</option>
+                <option value="http://www.hyundai-robotics.com/">HD현대로보틱스</option>
+                <option value="https://www.hd-hyundaielectric.com/elect/ko/index.jsp">HD현대일렉트릭</option>
+                <option value="https://www.hd-hyundaice.com/ko">HD현대건설기계</option>
+                <option value="https://www.oilbank.co.kr/main/index.do">HD현대오일뱅크</option>
+                <option value="https://www.hd-hyundaies.co.kr/">HD현대에너지솔루션</option>
+                <option value="https://www.hyundai-gs.com/kor/Main.do">HD현대글로벌서비스</option>
+                <option value="http://www.hent.co.kr/main/main.php">HD현대이엔티</option>
+                <option value="http://hhimos.co.kr/kor/Main.do">HD현대중공업MOS</option>
+                <option value="https://www.hd-infracore.com/kr">HD현대인프라코어</option>
+                <option value="http://www.hyundai-genuine.com/">HD현대사이트솔루션</option>
+                <option value="https://avikus.ai/eng/main">아비커스</option>
+                <option value="http://www.hd-hyundaichemical.co.kr/main/index.do">HD현대케미칼</option>
+                <option value="http://hyundaicosmo.com/main/index.do">HD현대코스모</option>
+                <option value="http://www.hsbaseoil.com/main/index.do">HD현대쉘베이스오일</option>
+                <option value="https://hyundaioci.co.kr/main/index.do">HD현대OCI</option>
+                <option value="http://www.hyundai-ec.com/">HD현대엔진</option>
+              </select>
+            </li>
+          </ul>
+        </ul>
+      </div><!--footer_top-->
+      <div class="footer_btm">
+        <div class="footer_btm_inner">
+          <img src="./image/logo/footer_logo.png" alt="footer_logo_img">
+          <div class="footer_infor">
+            <div>
+              <p class="tablet">울산광역시 동구 방어진순환도로 1000</p>
+              <p class="tablet">대표전화 : 052-202-2114</p>
+            </div>
+            <div>
+              <p class="tablet">Copyright ⓒ 2015 HD Hyundai Heavy</p>
+              <p class="tablet"> Industries Co., Ltd.All Rights Reserved.</p>
+            </div>
+          </div>
+          <ul class="footer_btn">
+            <li><a href="#!">개인정보처리방침</a></li>
+            <li><a href="#!">이메일무단수신거부</a></li>
+            <li><a href="#!">영상정보처리기기 운영·관리방침</a></li>
+            <li><a href="#!">신규 협력회사 등록</a></li>
+          </ul>
+        </div>
+      </div><!--footer_btm-->
+    </footer><!--footer-->
+  </div><!--fullpage-->
+</body>
+</html>
